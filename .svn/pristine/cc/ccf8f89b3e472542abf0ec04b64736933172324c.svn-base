@@ -1,0 +1,16 @@
+//
+//  CatsViewController.h
+//  myCats
+//
+//  Created by Agathangelos Plastropoulos on 15/12/11.
+//  Copyright (c) 2011 plusangel@gmail.com. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "PetDetailsViewController.h"
+
+@interface CatsViewController : UITableViewController <PetDetailsViewControllerDelegate>
+
+@property (nonatomic, strong) NSMutableArray *pets;
+
+@end

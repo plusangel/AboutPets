@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.5" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Appointment" representedClassName="Appointment" syncable="YES">
+        <attribute name="appointmentDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="appointmentIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pet" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="appointment" inverseEntity="Pet" syncable="YES"/>
+    </entity>
+    <entity name="Pet" representedClassName="Pet" syncable="YES">
+        <attribute name="breed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="kind" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastAppointment" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="microchip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registration" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Transformable" valueTransformerName="UIImageToDataTransformer" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="appointment" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Appointment" inverseName="pet" inverseEntity="Appointment" syncable="YES"/>
+        <relationship name="photo" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Photo" inverseName="pet" inverseEntity="Photo" syncable="YES"/>
+        <relationship name="therapy" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Therapy" inverseName="pet" inverseEntity="Therapy" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" valueTransformerName="UIImageToDataTransformer" syncable="YES"/>
+        <relationship name="pet" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="photo" inverseEntity="Pet" syncable="YES"/>
+    </entity>
+    <entity name="Therapy" representedClassName="Therapy" syncable="YES">
+        <attribute name="dateOfTherapy" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="product" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="therapyType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pet" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="therapy" inverseEntity="Pet" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Appointment" positionX="-396" positionY="243" width="128" height="88"/>
+        <element name="Pet" positionX="-11" positionY="221" width="128" height="238"/>
+        <element name="Photo" positionX="-288" positionY="-45" width="128" height="75"/>
+        <element name="Therapy" positionX="-459" positionY="63" width="128" height="135"/>
+    </elements>
+</model>

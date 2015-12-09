@@ -1,0 +1,21 @@
+//
+//  Cat.h
+//  myCats
+//
+//  Created by Agathangelos Plastropoulos on 15/12/11.
+//  Copyright (c) 2011 plusangel@gmail.com. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Cat : NSObject
+
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, strong) NSDate *dob;
+@property (nonatomic, assign) BOOL sex;
+@property (nonatomic, copy) NSString *breed;
+@property (nonatomic, copy) NSString *color;
+@property (nonatomic, strong) UIImage *profilePic;
+@property (nonatomic, assign) float weight;
+
+@end

@@ -1,0 +1,29 @@
+//
+//  PetDetailsViewController.h
+//  myCats
+//
+//  Created by Agathangelos Plastropoulos on 21/12/11.
+//  Copyright (c) 2011 plusangel@gmail.com. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class PetDetailsViewController;
+@class Cat;
+
+@protocol PetDetailsViewControllerDelegate <NSObject>
+- (void)petDetailsViewControllerDidCancel:(PetDetailsViewController *)controller;
+- (void)petDetailsViewController:(PetDetailsViewController *)controller didAddPet:(Cat *)pet;
+@end
+
+@interface PetDetailsViewController : UIViewController <UITextFieldDelegate>
+
+@property (nonatomic, weak) id <PetDetailsViewControllerDelegate> delegate;
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *breedTextField;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
+- (IBAction)cancel:(id)sender;
+- (IBAction)done:(id)sender;
+
+@end

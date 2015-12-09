@@ -1,0 +1,152 @@
+
+/* Class = "IBUITableViewSection"; headerTitle = "Price"; ObjectID = "04g-1Q-qJe"; */
+"04g-1Q-qJe.headerTitle" = "Τιμή";
+
+/* Class = "IBUITabBarItem"; title = "calendar"; ObjectID = "0Zn-Lg-dFb"; */
+"0Zn-Lg-dFb.title" = "ημερολόγιο";
+
+/* Class = "IBUILabel"; text = "Name:"; ObjectID = "1mY-bq-phv"; */
+"1mY-bq-phv.text" = "Όνομα:";
+"NQD-6g-Fty.text" = "Όνομα:";
+
+/* Class = "IBUILabel"; text = "Registered at:"; ObjectID = "9GJ-QN-cnX"; */
+"9GJ-QN-cnX.text" = "Καταγράφηκε:";
+"rak-tc-wgp.text" = "Καταγράφηκε:";
+
+/* Class = "IBUILabel"; text = "Breed"; ObjectID = "BQY-4o-m3O"; */
+"BQY-4o-m3O.text" = "Φυλή";
+"b83-IA-qfQ.text" = "Φυλή:";
+
+/* Class = "IBUILabel"; text = "Breed"; ObjectID = "C8L-HU-7u0"; */
+"C8L-HU-7u0.text" = "Φυλή";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Pet's Weight"; ObjectID = "HFt-aZ-5Rg"; */
+//"HFt-aZ-5Rg.headerTitle" = "Βάρος του κατοικίδιου";
+
+/* Class = "IBUILabel"; text = "Date of birth:"; ObjectID = "HUn-mW-h7J"; */
+"HUn-mW-h7J.text" = "Ημ/νια γέν.:";
+"Ad5-UH-fH7.text" = "Ημ/νια γέν.:";
+
+/* Class = "IBUILabel"; text = "Weight:"; ObjectID = "HcH-lk-UHm"; */
+"HcH-lk-UHm.text" = "Βάρος:";
+"vSG-9r-x0t.text" = "Βάρος:";
+
+/* Class = "IBUISegmentedControl"; It3-2m-IAa.segmentTitles[0] = "Cat"; ObjectID = "It3-2m-IAa"; */
+"It3-2m-IAa.segmentTitles[0]" = "Γάτα";
+
+/* Class = "IBUISegmentedControl"; It3-2m-IAa.segmentTitles[1] = "Dog"; ObjectID = "It3-2m-IAa"; */
+"It3-2m-IAa.segmentTitles[1]" = "Σκύλος";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "KQ9-uW-pqG"; */
+"KQ9-uW-pqG.text" = "Όνομα";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Date"; ObjectID = "KlW-bL-Map"; */
+"KlW-bL-Map.headerTitle" = "Ημερομηνία";
+
+/* Class = "IBUINavigationItem"; title = "Add Pet"; ObjectID = "L6D-3e-H3b"; */
+"L6D-3e-H3b.title" = "νέο κατοικίδιο";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "LxV-xe-jxM"; */
+"LxV-xe-jxM.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Microchip:"; ObjectID = "MfT-f0-7Uq"; */
+"MfT-f0-7Uq.text" = "Μικροτσίπ:";
+"Da1-LA-6iY.text" = "Μικροτσίπ:";
+
+/* Class = "IBUISegmentedControl"; OpH-ra-Pfc.segmentTitles[0] = "€"; ObjectID = "OpH-ra-Pfc"; */
+"OpH-ra-Pfc.segmentTitles[0]" = "€i";
+
+/* Class = "IBUISegmentedControl"; OpH-ra-Pfc.segmentTitles[1] = "$"; ObjectID = "OpH-ra-Pfc"; */
+"OpH-ra-Pfc.segmentTitles[1]" = "$";
+
+/* Class = "IBUISegmentedControl"; OpH-ra-Pfc.segmentTitles[2] = "£"; ObjectID = "OpH-ra-Pfc"; */
+"OpH-ra-Pfc.segmentTitles[2]" = "£";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "PSg-HE-9l3"; */
+//"PSg-HE-9l3.text" = "Subtitle";
+
+/* Class = "IBUITabBarItem"; title = "chart"; ObjectID = "QaL-c7-19h"; */
+"QaL-c7-19h.title" = "διάγραμμα";
+
+/* Class = "IBUILabel"; text = "Age"; ObjectID = "Qyd-Tp-WEG"; */
+"Qyd-Tp-WEG.text" = "Ηλικία";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Notes"; ObjectID = "Uuy-3w-gMv"; */
+"Uuy-3w-gMv.headerTitle" = "Σημειώσεις";
+
+/* Class = "IBUISegmentedControl"; V5P-ku-jSj.segmentTitles[0] = "Male"; ObjectID = "V5P-ku-jSj"; */
+"V5P-ku-jSj.segmentTitles[0]" = "Αρσε";
+
+/* Class = "IBUISegmentedControl"; V5P-ku-jSj.segmentTitles[1] = "Fema"; ObjectID = "V5P-ku-jSj"; */
+"V5P-ku-jSj.segmentTitles[1]" = "Θηλυ";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Product used"; ObjectID = "YXd-RR-xsa"; */
+"YXd-RR-xsa.headerTitle" = "Προϊόν που χρησιμοποιήθηκε";
+
+/* Class = "IBUILabel"; text = "Breed"; ObjectID = "Zf2-UD-13r"; */
+"Zf2-UD-13r.text" = "Φυλή";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "Znj-lo-Ms8"; */
+"Znj-lo-Ms8.text" = "Όνομα";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "ajV-n9-mLI"; */
+"ajV-n9-mLI.text" = "Όνομα";
+
+/* Class = "IBUITabBarItem"; title = "id"; ObjectID = "auV-ax-jK1"; */
+"auV-ax-jK1.title" = "ταυτότητα";
+
+/* Class = "IBUILabel"; text = "Microchip:"; ObjectID = "bLC-ha-k8W"; */
+"bLC-ha-k8W.text" = "Μικροτσίπ:";
+
+/* Class = "IBUINavigationItem"; title = "My Pets"; ObjectID = "boz-kL-oTy"; */
+"boz-kL-oTy.title" = "τα κατοικίδια μου";
+
+/* Class = "IBUILabel"; text = "Next appointment"; ObjectID = "c1U-6h-SZu"; */
+"c1U-6h-SZu.text" = "Επόμενο ραντεβού";
+
+/* Class = "IBUILabel"; text = "kg"; ObjectID = "dfM-Wj-39O"; */
+"dfM-Wj-39O.text" = "kg";
+
+/* Class = "IBUITabBarItem"; title = "health"; ObjectID = "eV2-gL-c9W"; */
+"eV2-gL-c9W.title" = "υγεία";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Date"; ObjectID = "g7U-Tc-2CV"; */
+"g7U-Tc-2CV.headerTitle" = "Ημερομηνία";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Therapy"; ObjectID = "lLW-sm-fhY"; */
+"lLW-sm-fhY.headerTitle" = "Θεραπεία";
+
+/* Class = "IBUISegmentedControl"; loh-9W-NU7.segmentTitles[0] = "Metric"; ObjectID = "loh-9W-NU7"; */
+"loh-9W-NU7.segmentTitles[0]" = "Διεθνές";
+
+/* Class = "IBUISegmentedControl"; loh-9W-NU7.segmentTitles[1] = "Imperial"; ObjectID = "loh-9W-NU7"; */
+"loh-9W-NU7.segmentTitles[1]" = "Βρετανικό";
+
+/* Class = "IBUILabel"; text = "Registered at:"; ObjectID = "oHB-0O-tIl"; */
+"oHB-0O-tIl.text" = "Καταγράφηκε:";
+
+/* Class = "IBUILabel"; text = "Needs more than 3 weight \npoints to draw the chart"; ObjectID = "r5x-L7-Hf0"; */
+"r5x-L7-Hf0.text" = "Χρειάζονται περισσότερα από 3 \nσημεία βάρους για να εμφανιστεί το διάγραμμα";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "tlB-a6-vQ3"; */
+"tlB-a6-vQ3.text" = "Όνομα";
+
+/* Class = "IBUILabel"; text = "Weight"; ObjectID = "ueW-Fo-ADt"; */
+"ueW-Fo-ADt.text" = "Βάρος";
+
+/* Class = "IBUILabel"; text = "Breed:"; ObjectID = "x8F-Dk-74d"; */
+"x8F-Dk-74d.text" = "Φυλή:";
+
+/* Class = "IBUILabel"; text = "Breed"; ObjectID = "xI7-ge-V1Z"; */
+"xI7-ge-V1Z.text" = "Φυλή";
+
+/* Class = "IBUILabel"; text = "Breed"; ObjectID = "xgh-FR-mjg"; */
+"xgh-FR-mjg.text" = "Φυλή";
+
+/* Class = "IBUILabel"; text = "Kg"; ObjectID = "y35-wk-g6g"; */
+"y35-wk-g6g.text" = "Kg";
+
+/* Class = "IBUIBarButtonItem"; title = "Settings"; ObjectID = "y94-Gk-vuL"; */
+"y94-Gk-vuL.title" = "Ρυθμίσεις";
+
+
